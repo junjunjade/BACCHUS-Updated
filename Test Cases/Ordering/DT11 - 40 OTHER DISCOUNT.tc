@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DT11 - 40 OTHER DISCOUNT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>507fb1fc-e448-4e9a-b810-3d23f02e78a2</testCaseGuid>
+</TestCaseEntity>

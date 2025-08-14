@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P10 - 30 Other DC and Paymaya Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>154d709e-741f-40f4-b760-c1d42551c43a</testCaseGuid>
+</TestCaseEntity>

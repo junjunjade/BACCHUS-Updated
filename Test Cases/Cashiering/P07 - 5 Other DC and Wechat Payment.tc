@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P07 - 5 Other DC and Wechat Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>11e44a4c-ca5a-4139-8072-cba8a1aa4205</testCaseGuid>
+</TestCaseEntity>

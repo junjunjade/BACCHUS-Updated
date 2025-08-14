@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P02 - PWD DC and GCASH Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f037db9-de26-48d1-9ab8-549774171e88</testCaseGuid>
+</TestCaseEntity>

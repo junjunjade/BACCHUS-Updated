@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P04 - MOV DC and DINERS Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3689cf3d-66f4-4a98-b5d6-35cb685dd436</testCaseGuid>
+</TestCaseEntity>

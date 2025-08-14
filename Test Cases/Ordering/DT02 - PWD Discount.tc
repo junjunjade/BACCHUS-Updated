@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DT02 - PWD Discount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e52891a-8460-48c6-81c7-83f9ac3f8e82</testCaseGuid>
+</TestCaseEntity>

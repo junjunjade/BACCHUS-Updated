@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DT13 - Employee Discount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cddf7332-0d9f-457a-8af0-f4492120fede</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DT12 - 50 OTHER DISCOUNT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a9659fdd-25fb-47f7-abd6-d6b304446ca4</testCaseGuid>
+</TestCaseEntity>

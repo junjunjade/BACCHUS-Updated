@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DT06 - VAT Exempt Sale</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>75d4363b-8971-432b-bad7-77ef0bd3cf26</testCaseGuid>
+</TestCaseEntity>

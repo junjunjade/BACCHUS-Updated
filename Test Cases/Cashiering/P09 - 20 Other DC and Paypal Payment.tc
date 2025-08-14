@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P09 - 20 Other DC and Paypal Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3725bdd-2e7d-470d-b7db-e3fdbdfb0e18</testCaseGuid>
+</TestCaseEntity>

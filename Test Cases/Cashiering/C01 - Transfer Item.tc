@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>C01 - Transfer Item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>efbb0c9e-9cc1-4c79-b547-33464fe66b80</testCaseGuid>
+</TestCaseEntity>

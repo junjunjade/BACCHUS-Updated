@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P08 - 10 Other DC and VISA Debit Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2b88443-1a8d-4fa2-96a0-bd30a4968d0d</testCaseGuid>
+</TestCaseEntity>

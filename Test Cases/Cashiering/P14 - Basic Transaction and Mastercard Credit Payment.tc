@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P14 - Basic Transaction and Mastercard Credit Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f35f8f55-2f47-4156-b880-7faa4c8498c9</testCaseGuid>
+</TestCaseEntity>

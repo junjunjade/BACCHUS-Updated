@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P06 - VAT Exempt Sale and Alipay</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5228e345-5827-40d8-ab25-d0ba3d6279d5</testCaseGuid>
+</TestCaseEntity>

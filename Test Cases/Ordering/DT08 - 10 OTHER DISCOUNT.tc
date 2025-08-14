@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DT08 - 10 OTHER DISCOUNT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>51870062-e25f-464c-9e9c-de65dfa15a90</testCaseGuid>
+</TestCaseEntity>

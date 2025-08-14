@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>C02 - Number of Receipts per Department</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e6e1baa4-7dc1-42e8-88a3-b78985b94213</testCaseGuid>
+</TestCaseEntity>

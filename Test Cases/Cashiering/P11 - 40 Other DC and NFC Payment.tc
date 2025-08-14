@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P11 - 40 Other DC and NFC Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6cf78bd1-a741-4ac4-a6d5-18be189543f3</testCaseGuid>
+</TestCaseEntity>

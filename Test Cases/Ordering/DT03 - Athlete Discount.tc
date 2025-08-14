@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DT03 - Athlete Discount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>09110d89-2b83-40c4-aefb-2c6340c86872</testCaseGuid>
+</TestCaseEntity>

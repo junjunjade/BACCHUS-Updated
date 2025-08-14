@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P01 - SC DC and Cash Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>05515fa4-27b5-4190-b8b0-d9afd526f732</testCaseGuid>
+</TestCaseEntity>

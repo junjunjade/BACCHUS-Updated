@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P05 - SC per share and JCB Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>60977a2d-fe25-4197-9279-58df820528c8</testCaseGuid>
+</TestCaseEntity>

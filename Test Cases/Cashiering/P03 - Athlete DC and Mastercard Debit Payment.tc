@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P03 - Athlete DC and Mastercard Debit Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>10430bad-b22c-493d-9fbe-b230d9469761</testCaseGuid>
+</TestCaseEntity>

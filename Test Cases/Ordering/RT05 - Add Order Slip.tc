@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RT05 - Add Order Slip</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>529c320a-d443-4816-9b45-9997d8a8fc20</testCaseGuid>
+</TestCaseEntity>

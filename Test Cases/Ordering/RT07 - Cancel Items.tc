@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RT07 - Cancel Items</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>534603a9-4f4b-4386-bcab-0af3de0698c1</testCaseGuid>
+</TestCaseEntity>
