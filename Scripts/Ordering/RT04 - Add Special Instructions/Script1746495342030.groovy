@@ -17,6 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// Perform horizontal swipe using W3C PointerInput
+import org.openqa.selenium.interactions.PointerInput
+import org.openqa.selenium.interactions.Sequence
+import org.openqa.selenium.WebDriver
+import java.time.Duration
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+
 String apkPath = GlobalVariable.APK_PATH;
 Mobile.startApplication(apkPath, true);
 
@@ -57,15 +64,28 @@ Mobile.waitForElementPresent(findTestObject('Object Repository/Regular Transacti
 
 Mobile.tap(findTestObject('Object Repository/Regular Transactions/android.widget.Button - LA POMME'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Regular Transactions/android.widget.Button - STRAWBERRY NUTELLA FRENCH TOAST'), 
-    0)
-
 Mobile.waitForElementPresent(findTestObject('Object Repository/Regular Transactions/android.widget.TextView - La Pomme'), 
     0)
 
 Mobile.tap(findTestObject('Object Repository/Regular Transactions/android.widget.TextView - La Pomme'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Regular Transactions/android.widget.Button - NEXT'), 0)
+def driver = MobileDriverFactory.getDriver()
+def finger = new PointerInput(PointerInput.Kind.TOUCH, "finger")
+def swipe = new Sequence(finger, 1)
+
+// Optional: use screen size to make it dynamic
+int deviceWidth = Mobile.getDeviceWidth()
+int deviceHeight = Mobile.getDeviceHeight()
+int startX = (deviceWidth * 0.7).toInteger()   // right side
+int endX = (deviceWidth * 0.5).toInteger()     // left side
+int startY = (deviceHeight * 0.1).toInteger()  // vertical center
+swipe.addAction(finger.createPointerMove(Duration.ofMillis(0),
+	   PointerInput.Origin.viewport(), startX, startY))
+swipe.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()))
+swipe.addAction(finger.createPointerMove(Duration.ofMillis(500),
+	   PointerInput.Origin.viewport(), endX, startY + 10)) // slight Y diff
+swipe.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()))
+driver.perform([swipe])
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Regular Transactions/android.widget.Button - ADD SPECIAL INSTRUCTION'), 
     0)
@@ -82,17 +102,6 @@ Mobile.waitForElementPresent(findTestObject('Object Repository/Regular Transacti
     0)
 
 Mobile.tap(findTestObject('Object Repository/Regular Transactions/android.widget.TextView - La Pomme'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Regular Transactions/android.widget.TextView - Strawberry Nutella French Toast'), 
-    0)
-
-Mobile.tap(findTestObject('Object Repository/Regular Transactions/android.widget.Button - ADD SPECIAL INSTRUCTION'), 0)
-
-Mobile.waitForElementPresent(findTestObject('Object Repository/Regular Transactions/android.widget.EditText - Special Instruction'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Regular Transactions/android.widget.EditText - Special Instruction'), 'more syrup', 0)
-
-Mobile.tap(findTestObject('Object Repository/Regular Transactions/android.widget.Button - SUBMIT'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Regular Transactions/android.widget.Button - HOLD ORDER'), 0)
 
